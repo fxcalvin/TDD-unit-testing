@@ -7,7 +7,7 @@ const app = require('../app');
 describe('multiply', function(){ 
     it('multiplyNumbers should return type number', function(){
         let result = app.multiplyNumbers(1,1); 
-        assert.typeOf(result, '');
+        assert.typeOf(result, 'number');
     });
 
     // it('should multiply numbers and return 1', function(){
