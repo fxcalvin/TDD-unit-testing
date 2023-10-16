@@ -15,9 +15,9 @@ describe('multiply', function(){
         assert.equal(result, 1);
     })
 
-    // it('Should multiply two numbers correclty', function(){
-    //     assert.strictEqual(app.multiplyNumbers(2,2),4)
-    // })
+    it('Should multiply two numbers correclty', function(){
+        assert.strictEqual(app.multiplyNumbers(2,2),4)
+    })
 
     // it('should multiply numbers and return 9', function(){
     //     assert.strictEqual(app.multiplyNumbers(3,3), 9)
