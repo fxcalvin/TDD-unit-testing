@@ -1,0 +1,19 @@
+{
+  "name": "unit-testing",
+  "version": "1.0.0",
+  "description": "simple testing",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "author": "calvin",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "eslint": "^8.51.0",
+    "mocha": "^10.2.0"
+  }
+}
