@@ -10,10 +10,10 @@ describe('multiply', function(){
         assert.typeOf(result, 'number');
     });
 
-    // it('should multiply numbers and return 1', function(){
-    //     let result = app.multiplyNumbers(1,1); 
-    //     assert.equal(result, 1);
-    // })
+    it('should multiply numbers and return 1', function(){
+        let result = app.multiplyNumbers(1,1); 
+        assert.equal(result, 1);
+    })
 
     // it('Should multiply two numbers correclty', function(){
     //     assert.strictEqual(app.multiplyNumbers(2,2),4)
