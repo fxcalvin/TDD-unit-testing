@@ -11,7 +11,7 @@ describe('Tax Calculator', function() {
     assert.equal(calculateTax(24000), 4800);
   });
 
-  // it('should calculate 40% tax for earnings greater than 36,000', function() {
-  //   assert.equal(calculateTax(50000), 20000);
-  // });
+  it('should calculate 40% tax for earnings greater than 36,000', function() {
+    assert.equal(calculateTax(50000), 20000);
+  });
 });
