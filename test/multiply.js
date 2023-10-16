@@ -20,10 +20,9 @@ describe('multiply', function(){
         assert.strictEqual(app.multiplyNumbers(3,3), 9)
     })
 
-    // it('should multiply a positive number by a negative number correctly', () => {
-    //     const result = app.multiplyNumbers(4, -4);
-    //     assert.equal(result,-16)
-    //   });
+    it('should multiply a number and return 16', () => {
+        const result = app.multiplyNumbers(4,4);
+        assert.equal(result,16)
+      });
     
-  
 });
